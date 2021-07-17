@@ -7,3 +7,20 @@
     margin: 10px 0;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .sign-up {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      margin: 10px 0;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

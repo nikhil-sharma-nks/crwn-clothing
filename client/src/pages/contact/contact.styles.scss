@@ -1,0 +1,33 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .info {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+    .fab {
+      margin-right: 1rem;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      height: auto;
+      width: auto;
+      line-height: 20px;
+      text-align: center;
+      padding: 0.5rem;
+    }
+  }
+}
