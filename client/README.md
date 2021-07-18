@@ -1,12 +1,15 @@
 ## THIS E-COMMERCE WEBSITE IS DEPLOYED LIVE
+
 https://crwn-clothing-nikhil.herokuapp.com/
 
-## It is a demo clothing e-commerce website made with React!
+## It is a demo clothing e-commerce progressive web app (PWA) made with React!
 
 ## Features
-- Consists of multiple routes. 
+
+- Consists of multiple routes.
+- PWA compliant
 - Sign-In/Sign-Out integrated by Firebase
-- Add Items and see them in cart dropdown and checkout page. 
+- Add Items and see them in cart dropdown and checkout page.
 - Processes payment (with demo card details provided at checkout page) integrated by using Stripe.
 - Website well optimized for responsiveness (Works well with smaller screen sizes as well!)
 - Collection data is fetched from external source (Firebase database)
@@ -14,17 +17,17 @@ https://crwn-clothing-nikhil.herokuapp.com/
 - Performance improved using lazy, Suspence and memo
 
 ## Libraries/Frameworks used
+
 - React (react, react-dom, react-router-dom)
 - Firebase : For authentication as well as storing collection data
 - NodeJs, Express : For backend
 - Scss : Fore styling (node-sass)
 - Redux : For state management
-- Redux-persist : For persistence 
-- Redux-saga : For making asynchronous actions. 
+- Redux-persist : For persistence
+- Redux-saga : For making asynchronous actions.
 - Redux-logger : Middleware used only in development for logging redux state changes.
 - Styled-Components : For using CSS in JS at some places
-- Compression : For improving performance (by optimising gzip) on deployment at heroku. 
-
+- Compression : For improving performance (by optimising gzip) on deployment at heroku.
 
 # Getting Started with Create React App
 
@@ -56,5 +59,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-

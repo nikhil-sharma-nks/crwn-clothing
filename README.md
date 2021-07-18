@@ -1,10 +1,11 @@
 ## THIS E-COMMERCE WEBSITE IS DEPLOYED LIVE
 https://crwn-clothing-nikhil.herokuapp.com/
 
-## It is a demo clothing e-commerce website made with React!
+## It is a demo clothing e-commerce progressive web app (PWA) made with React!
 
 ## Features
 - Consists of multiple routes. 
+- PWA compliant
 - Sign-In/Sign-Out integrated by Firebase
 - Add Items and see them in cart dropdown and checkout page. 
 - Processes payment (with demo card details provided at checkout page) integrated by using Stripe.
