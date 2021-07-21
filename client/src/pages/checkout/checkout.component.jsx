@@ -33,6 +33,7 @@ const CheckoutPage = ({ cartItems, total }) => (
       <CheckoutItem key={cartItem.id} cartItem={cartItem} />
     ))}
     <div className="total">TOTAL: ${total}</div>
+    <StripeCheckoutButton price={total} />
     <div className="test-warning">
       *Please use the following test credit card for payments*
       <br />
@@ -40,7 +41,6 @@ const CheckoutPage = ({ cartItems, total }) => (
       <br />
       For test purposes, choose country as US
     </div>
-    <StripeCheckoutButton price={total} />
   </div>
 );
 
