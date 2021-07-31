@@ -19,6 +19,11 @@ const Header = ({ currentUser, hidden, signOutStart }) => (
       <Logo className="logo" />
     </Link>
     <div className="options">
+      {currentUser ? (
+        <Link className="option" to="/profile">
+          HI, {currentUser.displayName.toUpperCase().split(" ")[0]}
+        </Link>
+      ) : null}
       <Link className="option" to="/shop">
         SHOP
       </Link>

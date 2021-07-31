@@ -7,6 +7,7 @@ import Header from "./components/header/header.component";
 import Spinner from "./components/spinner/spinner.component";
 import ErrorBoundary from "./components/error-boundary/error-boundary.component";
 import ContactPage from "./pages/contact/contact.component";
+import ProfilePage from "./pages/profile/profile.component";
 
 import { GlobalStyle } from "./global.styles";
 
@@ -33,8 +34,9 @@ const App = ({ checkUserSession, currentUser }) => {
         <Suspense fallback={<Spinner />}>
           <Switch>
             <Route exact path="/" component={HomePage} />
-            <Route path="/shop" component={ShopPage} />
             <Route path="/contact" component={ContactPage} />
+            <Route path="/shop" component={ShopPage} />
+            <Route path="/profile" component={ProfilePage} />
             <Route exact path="/checkout" component={CheckoutPage} />
             <Route
               exact
